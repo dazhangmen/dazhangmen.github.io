@@ -1,4 +1,19 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 加载 Start */
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://i.imgtg.com/2023/04/02/2DQgc.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background-image: url(https://i.imgtg.com/2023/04/02/2DQgc.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+
+
+/* 加载 Start */
 .loading-img {
   background: url(https://i.imgtg.com/2023/04/02/2DZjC.png) no-repeat center center;
   background-size: cover;

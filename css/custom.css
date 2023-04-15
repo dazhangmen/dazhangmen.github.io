@@ -1,10 +1,11 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 翻页按钮居中 */
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 翻页按钮居中Start */
 #pagination {
-  width: 100%;
+  width: 50%;
   margin: auto;
 }
-/* 翻页按钮居中 */
-/* 滚动条样式 */
+/* 翻页按钮居中end */
+
+/* 滚动条样式Start */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -36,13 +37,13 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: var(--theme-color);
+  background-color: rgba(144,19,254,1);
 }
-/* 滚动条样式 */
+/* 滚动条样式end */
 
-/* 个人信息卡片背景图 */
+/* 个人信息卡片背景图Start */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://i.imgtg.com/2023/04/02/2DQgc.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -53,7 +54,7 @@
   background-attachment: inherit;
   background-size: 100%;
 }
-/* 个人信息卡片背景图 */
+/* 个人信息卡片背景图end */
 
 /* 加载 Start */
 .loading-img {
@@ -66,7 +67,7 @@
 /* 公众号 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #49b1f5 !important;
+    background: #9013fe !important;
 }
 
 #aside-content .card-widget#card-wechat {

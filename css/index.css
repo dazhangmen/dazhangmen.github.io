@@ -2338,7 +2338,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-  color: var(--text-highlight-color);
+  color: #5b6ff1;
   font-size: 1.72em;
   line-height: 1.4;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2781,7 +2781,7 @@ h1.page-title + .tag-cloud-list {
   transition: all 0.2s ease-in-out;
 }
 #aside-content #card-toc .toc-content .toc-link:hover {
-  color: #49b1f5;
+  color: #5b6ff1;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
   background: #00c4b6;
@@ -3859,9 +3859,7 @@ h1.page-title + .tag-cloud-list {
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
-#article-container a {
-  color: #49b1f5;
-}
+#article-container a #5b6ff1: $theme-link-color,
 #article-container a:hover {
   text-decoration: underline;
 }
@@ -3980,7 +3978,7 @@ h1.page-title + .tag-cloud-list {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 #post .post-copyright .post-copyright-meta {
-  color: #49b1f5;
+  color: #5b6ff1;
   font-weight: bold;
 }
 #post .post-copyright .post-copyright-info {
